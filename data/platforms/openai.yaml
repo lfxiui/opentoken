@@ -1,0 +1,43 @@
+name: OpenAI
+slug: openai
+website: https://openai.com
+description: >-
+  OpenAI 提供 GPT-4o、o1、DALL-E、Whisper 等顶级 AI 模型的 API 访问。
+  其 API 平台支持文本生成、图像生成、语音识别、Embedding 等多种能力，
+  是目前生态最完善的 AI API 提供商之一。
+category: multi-modal
+tags:
+  - gpt-4o
+  - o1
+  - dall-e
+  - whisper
+  - embeddings
+  - function-calling
+  - vision
+
+free_tier:
+  available: false
+  description: >-
+    OpenAI API 不提供持久免费套餐，新账号注册后通常会赠送少量试用额度（有效期约 3 个月）。
+    ChatGPT 的网页版有免费的 GPT-4o 受限访问。
+  signup_url: https://platform.openai.com/signup
+  requires_credit_card: false
+
+promotions:
+  - title: 新账号试用额度
+    description: >-
+      新注册 OpenAI API 账号通常可获得少量免费 API 额度，用于测试各类模型，
+      额度在注册后约 3 个月内有效。具体金额可能因地区和时间有所不同。
+    credit_amount: "$5"
+    credit_amount_usd: 5.00
+    start_date: "2024-01-01"
+    is_ongoing: true
+    eligibility: 仅限新注册 API 账号
+    promo_url: https://platform.openai.com/signup
+    verified_date: "2025-03-01"
+
+pricing_url: https://openai.com/api/pricing
+docs_url: https://platform.openai.com/docs
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

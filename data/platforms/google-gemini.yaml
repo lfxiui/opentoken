@@ -1,0 +1,51 @@
+name: Google Gemini
+slug: google-gemini
+website: https://gemini.google.com
+description: >-
+  Google Gemini 是 Google 最新的多模态 AI 系列，包括 Gemini 2.0 Flash、
+  Gemini 1.5 Pro 等。通过 Google AI Studio 可免费使用 API，
+  限额非常慷慨，是目前免费额度最高的主流 AI API 之一。
+category: multi-modal
+tags:
+  - gemini
+  - gemini-2.0
+  - gemini-1.5
+  - google
+  - multimodal
+  - vision
+  - long-context
+
+free_tier:
+  available: true
+  description: >-
+    通过 Google AI Studio 可免费调用 Gemini API，Gemini 2.0 Flash 在免费层级提供
+    极为慷慨的配额：每分钟 15 次请求，每天 1500 次请求。无需信用卡即可开始。
+  models_included:
+    - gemini-2.0-flash
+    - gemini-1.5-flash
+    - gemini-1.5-pro
+  limits:
+    requests_per_minute: "15 (Flash)"
+    requests_per_day: "1500 (Flash)"
+    tokens_per_minute: "100万 (Flash)"
+  signup_url: https://aistudio.google.com
+  requires_credit_card: false
+
+promotions:
+  - title: Google Cloud 新用户 $300 额度
+    description: >-
+      首次注册 Google Cloud 的新用户可获得 $300 免费额度，有效期 90 天，
+      可用于 Vertex AI 上的 Gemini API 调用及其他 GCP 服务。
+    credit_amount: "$300"
+    credit_amount_usd: 300.00
+    start_date: "2024-01-01"
+    is_ongoing: true
+    eligibility: 新注册 Google Cloud 账号
+    promo_url: https://cloud.google.com/free
+    verified_date: "2025-03-01"
+
+pricing_url: https://ai.google.dev/pricing
+docs_url: https://ai.google.dev/gemini-api/docs
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

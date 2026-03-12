@@ -1,0 +1,49 @@
+name: Groq
+slug: groq
+website: https://groq.com
+description: >-
+  Groq 基于自研 LPU（Language Processing Unit）芯片，提供业界最快的 AI 推理速度。
+  支持 Llama 3、Mixtral、Gemma 等主流开源模型，免费层级额度慷慨，
+  是需要低延迟推理场景的首选平台。
+category: llm-api
+tags:
+  - fast-inference
+  - llama
+  - mixtral
+  - gemma
+  - lpu
+  - low-latency
+  - open-source
+
+free_tier:
+  available: true
+  description: >-
+    Groq 提供免费 API 层，每天可免费调用 Llama 3.3 70B、Mixtral 8x7B 等模型。
+    免费层有速率限制，但对于个人开发者日常使用完全够用。无需信用卡。
+  models_included:
+    - llama-3.3-70b-versatile
+    - llama-3.1-8b-instant
+    - mixtral-8x7b-32768
+    - gemma2-9b-it
+  limits:
+    requests_per_minute: "30"
+    requests_per_day: "14400"
+    tokens_per_minute: "6000 (70B模型)"
+  signup_url: https://console.groq.com/login
+  requires_credit_card: false
+
+promotions:
+  - title: 开发者免费访问计划
+    description: >-
+      Groq 对所有开发者提供慷慨的免费额度，可访问多种主流开源模型。
+      是体验超高速 AI 推理的最佳起点。
+    credit_amount: "每日免费配额"
+    is_ongoing: true
+    promo_url: https://console.groq.com/login
+    verified_date: "2025-03-01"
+
+pricing_url: https://groq.com/pricing/
+docs_url: https://console.groq.com/docs/openai
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

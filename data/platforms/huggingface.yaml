@@ -1,0 +1,37 @@
+name: Hugging Face
+slug: huggingface
+website: https://huggingface.co
+description: >-
+  Hugging Face 是 AI 领域的 GitHub，托管了超过 90 万个模型和数据集。
+  通过 Inference API 可免费调用 Llama、Mistral 等热门开源模型，
+  Spaces 平台可免费部署 AI 应用，是开源 AI 生态的核心枢纽。
+category: multi-modal
+tags:
+  - open-source
+  - inference-api
+  - model-hub
+  - spaces
+  - transformers
+  - llama
+  - diffusion
+
+free_tier:
+  available: true
+  description: >-
+    Hugging Face 免费账号可使用 Inference API 调用热门开源模型（有速率限制），
+    可在 Spaces 上免费部署 AI 应用（CPU 实例），并可访问所有公开模型和数据集。
+  models_included:
+    - meta-llama/Llama-3.2-3B-Instruct
+    - mistralai/Mistral-7B-Instruct-v0.3
+    - microsoft/Phi-3.5-mini-instruct
+  limits:
+    requests_per_hour: "受速率限制，具体依模型而定"
+    spaces: "免费 CPU 实例"
+  signup_url: https://huggingface.co/join
+  requires_credit_card: false
+
+pricing_url: https://huggingface.co/pricing
+docs_url: https://huggingface.co/docs/inference-providers/index
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

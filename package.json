@@ -1,0 +1,21 @@
+{
+  "name": "opentoken",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Open-source AI Credits information aggregation platform",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w @opentoken/server\" \"npm run dev -w @opentoken/web\"",
+    "build": "npm run build -w @opentoken/shared && npm run build -w @opentoken/server && npm run build -w @opentoken/web",
+    "seed": "npm run seed -w @opentoken/server",
+    "validate": "tsx scripts/validate.ts",
+    "typecheck": "tsc -b"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

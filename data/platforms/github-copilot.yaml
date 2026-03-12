@@ -1,0 +1,56 @@
+name: GitHub Copilot
+slug: github-copilot
+website: https://github.com/features/copilot
+description: >-
+  GitHub Copilot 是由 GitHub 和 OpenAI 联合开发的 AI 编程助手，
+  集成于 VS Code、JetBrains、Vim 等主流编辑器。
+  支持代码补全、Chat 对话、PR 审查等功能，是目前最流行的 AI 编程工具。
+category: coding-assistant
+tags:
+  - copilot
+  - vscode
+  - jetbrains
+  - code-completion
+  - chat
+  - github
+  - pair-programming
+
+free_tier:
+  available: true
+  description: >-
+    GitHub Copilot Free 计划每月提供 2000 次代码补全和 50 次 Chat 对话，
+    无需付费，适合轻量使用。学生和开源项目维护者可申请 Pro 计划（价值 $10/月）免费使用。
+  models_included:
+    - GPT-4o
+    - Claude 3.5 Sonnet
+  limits:
+    code_completions: "2000 次/月"
+    chat_messages: "50 次/月"
+  signup_url: https://github.com/features/copilot
+  requires_credit_card: false
+
+promotions:
+  - title: GitHub Copilot Free 计划
+    description: >-
+      GitHub 推出永久免费的 Copilot Free 计划，个人开发者无需付费即可使用
+      代码补全和 AI Chat 功能，支持 VS Code 和 GitHub.com。
+    credit_amount: "永久免费（有限额）"
+    is_ongoing: true
+    promo_url: https://github.com/features/copilot
+    verified_date: "2025-03-01"
+  - title: GitHub Education 学生免费 Pro
+    description: >-
+      通过 GitHub Education 认证的在校学生可免费使用 GitHub Copilot Pro，
+      无代码补全/Chat 次数限制，相当于每月 $10 的价值。
+    credit_amount: "Copilot Pro 免费（$10/月）"
+    credit_amount_usd: 10.00
+    is_ongoing: true
+    eligibility: 在校学生，需通过 GitHub Education 认证
+    promo_url: https://education.github.com/students
+    verified_date: "2025-03-01"
+
+pricing_url: https://github.com/features/copilot#pricing
+docs_url: https://docs.github.com/en/copilot
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

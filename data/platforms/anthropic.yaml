@@ -1,0 +1,48 @@
+name: Anthropic
+slug: anthropic
+website: https://anthropic.com
+description: >-
+  Anthropic 是专注于 AI 安全的研究公司，开发了 Claude 系列模型。
+  Claude 3.5 Sonnet 在编程、推理、写作等任务上表现出色，API 价格极具竞争力。
+  Claude.ai 提供免费的网页端对话界面。
+category: llm-api
+tags:
+  - claude
+  - claude-3.5
+  - claude-3-sonnet
+  - claude-3-haiku
+  - claude-3-opus
+  - safety
+  - reasoning
+  - coding
+
+free_tier:
+  available: true
+  description: >-
+    Claude.ai 网页版提供免费计划，可使用 Claude 3.5 Sonnet 和 Haiku，
+    每日消息数量有限制。Anthropic API 新账号可获得少量试用额度。
+  models_included:
+    - claude-3-5-sonnet-20241022
+    - claude-3-5-haiku-20241022
+  limits:
+    daily_messages: "受限，具体数量不定"
+  signup_url: https://claude.ai
+  requires_credit_card: false
+
+promotions:
+  - title: API 新账号试用额度
+    description: >-
+      新注册 Anthropic API 账号可获得少量免费额度，用于评估 Claude 系列模型的性能。
+      额度因账号类型和地区有所不同。
+    credit_amount: "$5"
+    credit_amount_usd: 5.00
+    is_ongoing: true
+    eligibility: 仅限新注册 API 账号
+    promo_url: https://console.anthropic.com/login
+    verified_date: "2025-03-01"
+
+pricing_url: https://www.anthropic.com/pricing
+docs_url: https://docs.anthropic.com
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

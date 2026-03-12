@@ -1,0 +1,49 @@
+name: Cohere
+slug: cohere
+website: https://cohere.com
+description: >-
+  Cohere 专注于企业级 NLP，提供 Command R+ 大语言模型、Embed 向量模型和 Rerank 重排序模型。
+  特别适合 RAG（检索增强生成）场景，其 Embed 和 Rerank 模型在企业搜索和问答系统中广泛应用。
+category: llm-api
+tags:
+  - command-r
+  - rag
+  - embedding
+  - rerank
+  - enterprise
+  - search
+
+free_tier:
+  available: true
+  description: >-
+    Cohere 提供试用 API Key，每分钟可调用 5 次 API，无需信用卡。
+    Trial key 支持 Command、Embed、Rerank 等全部模型，适合个人项目和原型开发。
+  models_included:
+    - command-r-plus
+    - command-r
+    - embed-english-v3.0
+    - rerank-english-v3.0
+  limits:
+    requests_per_minute: "5"
+    requests_per_month: "1000"
+  signup_url: https://dashboard.cohere.com/register
+  requires_credit_card: false
+
+promotions:
+  - title: Cohere for Startups
+    description: >-
+      Cohere 为早期创业公司提供 API 额度支持和技术资源，
+      帮助初创团队快速构建 AI 驱动的产品。
+    credit_amount: "最高 $5,000"
+    credit_amount_usd: 5000.00
+    start_date: "2024-03-01"
+    is_ongoing: true
+    eligibility: 融资额不超过 $5M 的早期创业公司
+    promo_url: https://cohere.com/startups
+    verified_date: "2025-03-01"
+
+pricing_url: https://cohere.com/pricing
+docs_url: https://docs.cohere.com
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

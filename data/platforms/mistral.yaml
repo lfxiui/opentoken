@@ -1,0 +1,34 @@
+name: Mistral AI
+slug: mistral
+website: https://mistral.ai
+description: >-
+  Mistral AI 是欧洲领先的 AI 公司，提供高性能开源和商业模型。
+  Mistral 7B、Mixtral 8x7B 等开源模型可自由部署，
+  其 API 平台提供 Mistral Small、Mistral Large 等商业模型，性价比极高。
+category: llm-api
+tags:
+  - mistral
+  - mixtral
+  - open-source
+  - european
+  - coding
+  - multilingual
+
+free_tier:
+  available: true
+  description: >-
+    la Plateforme 提供免费体验层，可使用 Mistral 系列模型进行测试。
+    开源模型（Mistral 7B、Mixtral）可通过 Hugging Face 等平台免费使用。
+    新账号注册后有试用额度。
+  models_included:
+    - mistral-small-latest
+    - open-mistral-7b
+    - open-mixtral-8x7b
+  signup_url: https://console.mistral.ai
+  requires_credit_card: false
+
+pricing_url: https://mistral.ai/technology/#pricing
+docs_url: https://docs.mistral.ai
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

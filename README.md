@@ -44,7 +44,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/opentoken-dev/opentoken.git
+git clone https://github.com/lfxiui/opentoken.git
 cd opentoken
 
 # 安装依赖

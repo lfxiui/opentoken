@@ -1,0 +1,40 @@
+name: Together AI
+slug: together-ai
+website: https://www.together.ai
+description: >-
+  Together AI 提供超过 200 种开源模型的高速推理 API，支持 Llama、Qwen、DeepSeek 等热门模型。
+  其 Serverless API 按需计费，无需信用卡即可获取 $1 免费额度开始使用。
+category: llm-api
+tags:
+  - llama
+  - qwen
+  - deepseek
+  - open-source
+  - fast-inference
+  - serverless
+
+free_tier:
+  available: true
+  description: >-
+    新注册账号赠送 $1 免费 API 额度，可用于测试 200+ 开源模型。
+    无需信用卡，按需计费，适合快速体验和原型开发。
+  signup_url: https://api.together.ai
+  requires_credit_card: false
+
+promotions:
+  - title: 新账号 $1 免费额度
+    description: >-
+      注册 Together AI 账号即送 $1 免费 API 额度，
+      可用于调用 Llama 3、Qwen 2.5、DeepSeek V3 等 200+ 开源模型。
+    credit_amount: "$1"
+    credit_amount_usd: 1.00
+    is_ongoing: true
+    eligibility: 新注册账号
+    promo_url: https://api.together.ai
+    verified_date: "2025-03-01"
+
+pricing_url: https://www.together.ai/pricing
+docs_url: https://docs.together.ai
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

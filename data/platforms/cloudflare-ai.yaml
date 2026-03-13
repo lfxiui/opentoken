@@ -1,0 +1,35 @@
+name: Cloudflare AI
+slug: cloudflare-ai
+website: https://developers.cloudflare.com/workers-ai/
+description: >-
+  Cloudflare Workers AI 在 Cloudflare 的全球边缘网络上提供 AI 模型推理，
+  支持 Llama、Mistral、Stable Diffusion 等模型。免费计划每天提供 10,000 次神经元计算，
+  延迟极低，无需信用卡。
+category: llm-api
+tags:
+  - edge-computing
+  - llama
+  - stable-diffusion
+  - serverless
+  - cloudflare
+  - low-latency
+
+free_tier:
+  available: true
+  description: >-
+    Cloudflare Workers AI 免费计划每天提供 10,000 次神经元（Neurons）计算，
+    可用于 Llama 3、Mistral、Stable Diffusion 等模型。部署在全球边缘节点，延迟极低。
+  models_included:
+    - "@cf/meta/llama-3.1-8b-instruct"
+    - "@cf/mistral/mistral-7b-instruct-v0.2"
+    - "@cf/stabilityai/stable-diffusion-xl-base-1.0"
+  limits:
+    neurons_per_day: "10,000"
+  signup_url: https://dash.cloudflare.com/sign-up
+  requires_credit_card: false
+
+pricing_url: https://developers.cloudflare.com/workers-ai/platform/pricing/
+docs_url: https://developers.cloudflare.com/workers-ai/
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

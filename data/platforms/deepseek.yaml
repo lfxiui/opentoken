@@ -1,0 +1,46 @@
+name: DeepSeek
+slug: deepseek
+website: https://www.deepseek.com
+description: >-
+  DeepSeek 是中国 AI 公司幻方量化推出的开源大模型，DeepSeek-V3 和 DeepSeek-R1
+  在多项基准上媲美 GPT-4o，API 价格极低（约为 OpenAI 的 1/30）。
+  新账号赠送 500 万 tokens 免费额度。
+category: llm-api
+tags:
+  - deepseek-v3
+  - deepseek-r1
+  - reasoning
+  - open-source
+  - cheap
+  - chinese
+
+free_tier:
+  available: true
+  description: >-
+    新注册 DeepSeek API 账号赠送 500 万 tokens 免费额度（约 $2.5 等值），
+    可用于测试 DeepSeek-V3（对话）和 DeepSeek-R1（推理）模型。
+  models_included:
+    - deepseek-chat
+    - deepseek-reasoner
+  limits:
+    free_tokens: "500万 tokens"
+  signup_url: https://platform.deepseek.com
+  requires_credit_card: false
+
+promotions:
+  - title: 新账号 500 万 tokens 赠送
+    description: >-
+      新注册 DeepSeek API 账号即可获得 500 万免费 tokens（等值约 $2.5），
+      可用于 DeepSeek-V3 和 DeepSeek-R1 模型调用。
+    credit_amount: "500 万 tokens"
+    credit_amount_usd: 2.50
+    is_ongoing: true
+    eligibility: 新注册账号
+    promo_url: https://platform.deepseek.com
+    verified_date: "2025-03-01"
+
+pricing_url: https://platform.deepseek.com/api-docs/pricing
+docs_url: https://platform.deepseek.com/api-docs
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community

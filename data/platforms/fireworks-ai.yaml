@@ -1,0 +1,39 @@
+name: Fireworks AI
+slug: fireworks-ai
+website: https://fireworks.ai
+description: >-
+  Fireworks AI 专注于开源模型的高速推理，支持 Llama、Mixtral、FireFunction 等模型。
+  提供 $1 免费额度，推理速度极快，延迟低，适合生产环境使用。
+category: llm-api
+tags:
+  - llama
+  - mixtral
+  - fast-inference
+  - open-source
+  - function-calling
+
+free_tier:
+  available: true
+  description: >-
+    新注册账号赠送 $1 免费 API 额度，可用于测试 Llama 3、Mixtral 等开源模型。
+    无需信用卡即可开始。
+  signup_url: https://fireworks.ai/login
+  requires_credit_card: false
+
+promotions:
+  - title: 新账号 $1 免费额度
+    description: >-
+      注册 Fireworks AI 账号即送 $1 免费额度，
+      可用于调用 Llama 3、Mixtral、Gemma 等高速推理模型。
+    credit_amount: "$1"
+    credit_amount_usd: 1.00
+    is_ongoing: true
+    eligibility: 新注册账号
+    promo_url: https://fireworks.ai/login
+    verified_date: "2025-03-01"
+
+pricing_url: https://fireworks.ai/pricing
+docs_url: https://docs.fireworks.ai
+status: active
+last_verified: "2025-03-01"
+last_verified_by: community
